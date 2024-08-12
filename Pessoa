@@ -1,0 +1,14 @@
+public class Pessoa {
+
+    private String nome,sobrenome;
+}
+
+public class PessoaJuridica extends Pessoa{
+
+    private long cnpj;
+}
+
+public abstract class PessoaFisica extends Pessoa{
+
+    private long cpf;
+}
