@@ -1,6 +1,7 @@
 package Ebac.Annotations;
 
 
-@NomeTabela("Tabela Exemplo de annotations")
+@NomeTabela(value = "Tabela Exemplo de annotations", nomeNovo = "Tabela Reflection")
 public class TabelaAnnotations {
+
 }
